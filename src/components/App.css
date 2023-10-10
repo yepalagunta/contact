@@ -1,0 +1,69 @@
+.main {
+  margin-top: 5em;
+}
+
+.center {
+  justify-content: center;
+  padding: 10px;
+}
+
+.ui.search input {
+  width: 100%;
+  border-radius: 0 !important;
+}
+
+.item {
+  padding: 15px 0px !important;
+}
+
+i.icon {
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Button styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Button styles - Different colors */
+.button-primary {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+.button-success {
+  background-color: #2ecc40;
+  color: #fff;
+}
+
+.button-warning {
+  background-color: #ff851b;
+  color: #fff;
+}
+
+.button-danger {
+  background-color: #ff4136;
+  color: #fff;
+}
+
+/* Button styles - Hover effect */
+.button:hover {
+  opacity: 0.8;
+}
